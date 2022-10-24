@@ -119,3 +119,18 @@ int main()
 
     PR.GetInfo();
 }
+
+/*
+
+Herança: caso seja desejado usar os mesmos atributos de uma classe para outro objeto
+
+class Establishments : public Establishment { // o ': public Establishment' é uma forma da nova classe herdar todos os atributos da classe base
+                                                     // o 'public' pega tudo que está publico na classe YoutubeChannel
+                                                     // o 'Establishments' é chamado de arrive class
+public: //deixa o construtor acessível na main
+Establishments(string name, string ownerName) : Establishment(name, ownerName){  //construtor
+  }
+};
+
+*/
+
