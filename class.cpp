@@ -25,8 +25,7 @@ public:
       cout << "Seasons: " << MS << endl;
     }
     cout << "Cast: ";
-    for (string ActorsNames :
-         Cast) { // create a new string that recieves the HBO.Cast content
+    for (string ActorsNames : Cast) { // create a new string that recieves the HBO.Cast content
       cout << ActorsNames << endl;
     }
     cout << endl;
