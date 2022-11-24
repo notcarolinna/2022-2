@@ -1,13 +1,10 @@
 
-ÁRVORES
-- Diferença entre Lista, Fila, Pilha, Árvore genérica e ABP balanceada - Análise de árvore binária(grau, nível, altura, nodos, caminhamentos) - Inserção de números em uma ABP - Identificação de uma árvore AVL - Cálculo do fator de balanceamento
-
                                           ALGORITMOS DE ORDENAÇÃO
 
-                                          BUBBLE SORT:
-    -Mais simples e menos eficiente
-    - Ineficiente para listas muito grandes
-    - Elemento da posição i será comparado com o elemento da pos i + 1
+BUBBLE SORT:
+- Mais simples e menos eficiente
+- Ineficiente para listas muito grandes
+- Elemento da posição i será comparado com o elemento da pos i + 1
 
     // Implementação por recursão c++
     void bubblesort(int arr[], int n)
@@ -31,14 +28,14 @@
     bubblesort(arr, n - 1); // Recursão para o restante do array
 }
 
-INSERTION SORT : -Simples e eficiente quando aplicado a pequenas listas - Estável : mantém a ordem relativa dos valores iguais
+INSERTION SORT : 
+- Simples e eficiente quando aplicado a pequenas listas 
+- Estável : mantém a ordem relativa dos valores iguais
 
-                                                                                        QUICK SORT : -Mais eficiente -
-                                                                                                     Escolhe um número,
-    procura se tem um número menor na lista
-        e troca de lugar com ele.Depois,
-    procura - se um número maior
-                  e troca de lugar e assim ocorre até ordenar o vetor inteiro.
+QUICK SORT : 
+-Mais eficiente 
+- Escolhe um número, procura se tem um número menor na lista e troca de lugar com ele. Depois, procura - se um número maior
+e troca de lugar e assim ocorre até ordenar o vetor inteiro.
 
 #include <stdio.h>
               void
