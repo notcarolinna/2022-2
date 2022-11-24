@@ -90,7 +90,9 @@ int main()
     return 0;
 }
 
-MERGE SORT : -É visto como uma árvore binária - Divisão e conquista, divide o array em duas metades
+MERGE SORT : 
+- É visto como uma árvore binária 
+- Divisão e conquista, divide o array em duas metades
 
     void
     merge(int array[], int left, int mid, int right)
