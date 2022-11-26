@@ -1,4 +1,6 @@
-
+#include <iostream>
+#include "VetorDinamico.h"
+using namespace std;
 
 /* 
 Analise a classe do programa abaixo e, sem utilizar a STL, crie os métodos construtor, destrutor e adiciona. 
@@ -11,3 +13,21 @@ posição livre é a 3. Se não houver espaço, o método adiciona deve alocar u
 deve gerenciar a “desalocação” de dados que não são mais utilizados.
 Crie os atributos que julgar necessários.
 */
+
+
+int main() {
+
+	VetorDinamico V1(5);
+	int dado;
+
+	do {
+		cin >> dado;
+		if (dado > 0)
+			V1.adiciona(dado);
+		else break;
+	} while (1);
+
+	for (int i = 0; i < V1.qtdDados(); i++)
+		cout << V1.getDado(i) << endl;
+	return 0;
+}
