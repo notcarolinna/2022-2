@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#ifndef PESSOA_HP
+#ifndef PESSOA_H
 
 using namespace std;
 
