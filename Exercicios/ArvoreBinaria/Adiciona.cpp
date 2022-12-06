@@ -1,23 +1,24 @@
 // Crie um método de inserção de elementos na árvore, respeitando o criterio
 // de ordenação.
 
-Node *Tree::add(Node *node, int element, Node *father)
+Nodo *Tree::add(Nodo *Nodo, int valorNodo, Nodo *nodoPai)
+
 {
-    if (node == NULL)
+    if (Nodo == NULL)
     {
-        Node *aux = new Node(element);
-        aux->father = father;
+        Nodo *aux = new Nodo(valorNodo);
+        aux->nodoPai = nodoPai;
         return aux;
     }
 
-    if (element > node->element)
+    if (valorNodo > Nodo->valorNodo)
     {
-        node->right = add(node->right, element, node);
+        Nodo->right = add(Nodo->right, valorNodo, Nodo);
     }
     else
     {
-        node->left = add(node->left, element, node);
+        Nodo->left = add(Nodo->left, valorNodo, Nodo);
     }
 
-    return node;
+    return Nodo;
 }
