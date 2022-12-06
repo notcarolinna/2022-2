@@ -5,6 +5,6 @@ int soma(Nodo *raiz)
 {
     if (raiz == NULL)
         return 0;
-    return (raiz->valorNodo + soma(raiz->left) + soma(raiz->right));
+    return (raiz->valorNodo + soma(raiz->esquerda) + soma(raiz->direita));
 }
 
