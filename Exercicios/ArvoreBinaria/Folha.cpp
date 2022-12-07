@@ -3,7 +3,7 @@ int Tree::contaNodesFolha(Node *Node)
 {
     if (Node != NULL)
     {
-        if (Node->esquerda == NULL && Node->esquerda == NULL)
+        if (Node->esquerda == NULL && Node->direita == NULL)
         {
             return 1;
         }
